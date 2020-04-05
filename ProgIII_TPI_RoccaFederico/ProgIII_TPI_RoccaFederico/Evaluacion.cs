@@ -8,5 +8,8 @@ namespace ProgIII_TPI_RoccaFederico
 {
     class Evaluacion
     {
+        public int tipo { get; set; }
+        public int condicion { get; set; }
+        public bool requerida { get; set; }
     }
 }

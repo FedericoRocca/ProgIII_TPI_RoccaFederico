@@ -8,5 +8,8 @@ namespace ProgIII_TPI_RoccaFederico
 {
     class Contacto
     {
+        public List<string> telefonos { get; set; }
+        public List<string> mails { get; set; }
+        public List<string> redesSociales { get; set; }
     }
 }

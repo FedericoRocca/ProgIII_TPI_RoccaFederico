@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProgIII_TPI_RoccaFederico
 {
-    class Profesor : Persona
+    class Cargo
     {
-        public Cargo cargo { get; set; }
-        public List<Materia> materias { get; set; }
-        public int nivel { get; set; }
+        public float sueldo { get; set; }
+        public int categoria { get; set; }
     }
 }

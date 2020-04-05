@@ -8,5 +8,7 @@ namespace ProgIII_TPI_RoccaFederico
 {
     class Carrera
     {
+        public List<Materia> materias { get; set; }
+        public string titulo { get; set; }
     }
 }

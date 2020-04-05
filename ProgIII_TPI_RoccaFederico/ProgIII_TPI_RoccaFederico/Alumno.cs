@@ -8,5 +8,7 @@ namespace ProgIII_TPI_RoccaFederico
 {
     class Alumno : Persona
     {
+        public Carrera carrera { get; set; }
+        public int legajo { get; set; }
     }
 }
