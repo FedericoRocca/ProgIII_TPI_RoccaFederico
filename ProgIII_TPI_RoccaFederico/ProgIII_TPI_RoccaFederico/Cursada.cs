@@ -13,5 +13,6 @@ namespace ProgIII_TPI_RoccaFederico
         public DateTime fechaInicio { get; set; }
         public DateTime fechaFin { get; set; }
         public List<Evaluacion> evaluaciones { get; set; }
+        public Aula aula { get; set; }
     }
 }

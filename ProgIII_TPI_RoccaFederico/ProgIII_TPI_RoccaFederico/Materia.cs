@@ -11,5 +11,6 @@ namespace ProgIII_TPI_RoccaFederico
         public List<Profesor> profesores { get; set; }
         public List<Alumno> alumnos { get; set; }
         public List<Evaluacion> evaluaciones { get; set; }
+        public List<Horario> horarios { get; set; }
     }
 }
